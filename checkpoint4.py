@@ -1,10 +1,10 @@
 # Exercise 1: Create a list, tuple, float, integer, decimal, and dictionary.
-
+from decimal import Decimal
 sample_list = ["item1", "item2", "item3"]
 sample_tuple = ("item4", "item5", "item6")
 sample_float = 0.7
 sample_integer = 0
-sample_decimal = 0.1223233233322
+sample_decimal = Decimal(0.1223233233322)
 sample_dictionary = {
 
     "item7_key" : ["item7_value1", "item7_value2"],
@@ -46,7 +46,7 @@ sample_list.sort()
 
 # Exercise 9: Use reassignment to add an element to your tuple.
 
-sample_tuple = ("item4", "item5", "item6", "new element")
+sample_tuple += ("new element",)
 
 
 ''' PREGUNTAS TEÓRICAS
